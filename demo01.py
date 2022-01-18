@@ -40,6 +40,7 @@ print("input获取的内容:",a)
 a = input("请输入：")
 b = input("请输入：")
 print("两端字符串的长度是：", len(a)+len(b))
+print("哈哈")
 
 
 
