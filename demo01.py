@@ -1,3 +1,5 @@
+from re import T
+from this import d
 from unicodedata import name
 
 """
@@ -37,12 +39,18 @@ print("input获取的内容:",a)
 # print(type(a))
 # a = "sffhjhqwgjhwksgwqkjhsklqshqskhdssnxsx  xxnbxdxqxbwjk"
 # print(len(a))
-a = input("请输入：")
-b = input("请输入：")
-print("两端字符串的长度是：", len(a)+len(b))
-print("哈哈")
-
-
-
-
+# a = input("请输入：")
+# b = input("请输入：")
+# print("两端字符串的长度是：", len(a)+len(b))
+# print("哈哈")
+a = (1,2,3,4,"哈哈","哈哈","哈哈","哈哈","嘻嘻",True,False)
+# print(a)
+# print(a[-3])
+print(a[0:4])
+print(a[4:9])
+print(a[9:])
+# print(a.index("哈哈"))
+# print(a.count("哈哈"))
+# b = (a,"哈哈","嘻嘻")
+# print(b[0][3])
 
